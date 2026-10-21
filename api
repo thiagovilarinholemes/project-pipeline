@@ -1,0 +1,11 @@
+# API Produtos
+https://dummyjson.com/products?limit=3
+
+# API Usuários
+https://jsonplaceholder.typicode.com/users
+
+# API Financeira
+https://api.hgbrasil.com/finance?key=0c72c870
+
+# API Previsão do Tempo
+https://api.hgbrasil.com/weather?city_name=PALMAS,TO&key=0c72c870

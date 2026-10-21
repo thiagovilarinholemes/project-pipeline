@@ -1,0 +1,91 @@
+{
+    "indicadores_gerais": {
+        "arquivo": "indicadores.csv",
+        "timestamp": "2026-10-21T13:08:42.908237+00:00",
+        "total_registros": 2,
+        "total_colunas": 5,
+        "quantidade_ids": 2,
+        "ids_preenchidos": 2,
+        "ids_distintos": 2,
+        "ids_duplicados": 0,
+        "total_celulas": 10,
+        "total_celulas_preenchidas": 10,
+        "total_celulas_nulas": 0,
+        "percentual_preenchido": 100.0,
+        "percentual_nulo": 0.0
+    },
+    "indicadores_por_coluna": [
+        {
+            "nome_coluna": "id",
+            "tipo": "inteiro",
+            "quantidade_total_registros": 2,
+            "valores_preenchidos": 2,
+            "valores_nulos": 0,
+            "valores_distintos": 2,
+            "valores_duplicados": 0,
+            "percentual_preenchido": 100.0,
+            "percentual_nulo": 0.0,
+            "percentual_distinto": 100.0,
+            "media": 388888.5,
+            "soma": 777777.0,
+            "minimo": 123456.0,
+            "maximo": 654321.0,
+            "mediana": 388888.5,
+            "desvio_padrao": 375378.2414
+        },
+        {
+            "nome_coluna": "nome",
+            "tipo": "texto",
+            "quantidade_total_registros": 2,
+            "valores_preenchidos": 2,
+            "valores_nulos": 0,
+            "valores_distintos": 2,
+            "valores_duplicados": 0,
+            "percentual_preenchido": 100.0,
+            "percentual_nulo": 0.0,
+            "percentual_distinto": 100.0
+        },
+        {
+            "nome_coluna": "preco",
+            "tipo": "decimal",
+            "quantidade_total_registros": 2,
+            "valores_preenchidos": 2,
+            "valores_nulos": 0,
+            "valores_distintos": 2,
+            "valores_duplicados": 0,
+            "percentual_preenchido": 100.0,
+            "percentual_nulo": 0.0,
+            "percentual_distinto": 100.0,
+            "media": 47.81,
+            "soma": 95.62,
+            "minimo": 42.98,
+            "maximo": 52.64,
+            "mediana": 47.81,
+            "desvio_padrao": 6.8307
+        },
+        {
+            "nome_coluna": "email",
+            "tipo": "texto",
+            "quantidade_total_registros": 2,
+            "valores_preenchidos": 2,
+            "valores_nulos": 0,
+            "valores_distintos": 2,
+            "valores_duplicados": 0,
+            "percentual_preenchido": 100.0,
+            "percentual_nulo": 0.0,
+            "percentual_distinto": 100.0
+        },
+        {
+            "nome_coluna": "status",
+            "tipo": "texto",
+            "quantidade_total_registros": 2,
+            "valores_preenchidos": 2,
+            "valores_nulos": 0,
+            "valores_distintos": 2,
+            "valores_duplicados": 0,
+            "percentual_preenchido": 100.0,
+            "percentual_nulo": 0.0,
+            "percentual_distinto": 100.0
+        }
+    ]
+}

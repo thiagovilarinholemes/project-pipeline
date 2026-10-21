@@ -1,0 +1,7 @@
+# Versão fixa para manter o ambiente de estudos reproduzível.
+pyspark==3.5.8
+pytest==8.4.2
+requests==2.32.5
+pandas 
+pyarrow
+openpyxl

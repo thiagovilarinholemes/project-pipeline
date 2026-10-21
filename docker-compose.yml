@@ -1,0 +1,29 @@
+services:
+  pyspark:
+    # Constrói a imagem usando o Dockerfile do projeto.
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    # Identifica o contêiner nos comandos do Docker.
+    container_name: pyspark-lakehouse-lab
+
+    # Executa o Spark em modo local, usando os núcleos
+    # disponíveis no contêiner para processamento.
+    environment:
+      SPARK_LOCAL_IP: 127.0.0.1
+
+    # Compartilha arquivos entre Windows e contêiner.
+    volumes:
+      - ./src:/app/src
+      - ./datasets:/app/datasets
+      - ./output:/app/output
+
+    env_file:
+      - ./.env
+
+    # Diretório em que os comandos serão executados.
+    working_dir: /app
+
+    # Permite executar os comandos do laboratório
+    # explicitamente pelo docker compose run.
